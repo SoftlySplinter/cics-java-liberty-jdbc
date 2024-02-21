@@ -14,7 +14,7 @@ This sample can use either Db2 type 2 or type 4 connectivity.
 * [`etc/eclipse_projects/com.ibm.cicsdev.jdbc.web.cicsbundle`](etc/eclipse_projects/com.ibm.cicsdev.jdbc.web.cicsbundle) - CICS bundle project (CICS Exp
 
 ## Prerequisites
-* CICS TSf for z/OS V5.5
+* CICS TSf for z/OS V6.1
 * Java SE 8 or later on the z/OS system
 * CICS Explorer with the IBM CICS SDK for Java EE and Liberty feature installed [available here](https://developer.ibm.com/mainframe/products/downloads), Gradle, or Apache Maven.
 * IBM Db2 for z/OS
@@ -115,7 +115,8 @@ _If using Db2 type 2 connectivity to Db2_
 ## Deploying to a Liberty JVM server
 
 Ensure you have the following features defined in your Liberty server.xml:
-* `jdbc-4.0` (or above)
+* `jdbc-4.3` (or above)
+* `servlet-5.0`
 * If using Db2 type 2, add the following property to the JVM profile:
   
   ```
