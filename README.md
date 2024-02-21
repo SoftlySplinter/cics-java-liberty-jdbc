@@ -1,5 +1,5 @@
 # cics-java-liberty-jdbc
-[![Build](https://github.com/SoftlySplinter/cics-java-liberty-jdbc/actions/workflows/java.yaml/badge.svg?branch=cicsts%2Fv5.5)](https://github.com/SoftlySplinter/cics-java-liberty-jdbc/actions/workflows/java.yaml)
+[![Build](https://github.com/SoftlySplinter/cics-java-liberty-jdbc/actions/workflows/java.yaml/badge.svg?branch=cicsts%2Fv6.1)](https://github.com/SoftlySplinter/cics-java-liberty-jdbc/actions/workflows/java.yaml)
 
 Sample JDBC Java EE web application demonstrating how to access a Db2 database from a web servlet in CICS Liberty. 
 
